@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+25&family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 255, 0),
+    rgb(240, 230, 230),
+    rgb(4, 219, 94)
+  );
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  color: rgb(33, 36, 36);
+}
+input {
+  margin: 20px 20px;
+  padding: 13px 40px;
+  background-color: rgb(148, 233, 222);
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  outline: none;
+  font-size: medium;
+}
+button {
+  margin: 15px auto;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: rgb(243, 0, 81);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.card-img , img {
+  margin: 10px auto;
+  width:200px;
+  border-radius: 50%;
+  
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+h1 {
+  padding: 10px 10px;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  color: rgb(51, 45, 45);
+}
+.container{
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  width:70vw;
+  min-width: 330px;
+  text-align: center;
+  padding: 35px 20px;
+}
+.card{
+  width:25rem;
+  background-image: linear-gradient(to bottom,gray, white);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid red;
+}
+.card-title{
+font-size: x-large;
+font-weight: bolder;
+}
+.card-subheading{
+  font-size: large;
+  color: bisque;
+}
+#repo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
